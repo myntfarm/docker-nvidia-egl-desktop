@@ -3,7 +3,7 @@
 # file, You can obtain one at https://mozilla.org/MPL/2.0/.
 
 # Ubuntu release versions 22.04, 20.04, and 18.04 are supported
-ARG UBUNTU_RELEASE=22.04
+ARG UBUNTU_RELEASE=18.04
 ARG CUDA_VERSION=11.7.1
 FROM nvcr.io/nvidia/cuda:${CUDA_VERSION}-runtime-ubuntu${UBUNTU_RELEASE}
 

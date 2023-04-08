@@ -10,10 +10,10 @@ on:
     branches: [ main ]
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: selkies-project/nvidia-egl-desktop
+  IMAGE_NAME: myntfarm/nvidia-desktop
 jobs:
   build-bionic:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     permissions:
       contents: read
       packages: write

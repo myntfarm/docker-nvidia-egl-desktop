@@ -13,7 +13,7 @@ env:
   IMAGE_NAME: myntfarm/nvidia-desktop
 jobs:
   build-bionic:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     permissions:
       contents: read
       packages: write
